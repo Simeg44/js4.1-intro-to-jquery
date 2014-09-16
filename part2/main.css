@@ -1,0 +1,14 @@
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+.links {
+	width: 200px;
+	margin: auto;
+}
+
+.links a {
+	text-align: center;
+	display: inherit;
+}

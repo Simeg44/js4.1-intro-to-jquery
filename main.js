@@ -7,4 +7,14 @@ $(document).on('ready', function() {
   	$(".console-btn").on('click', 'button', function() {
   		console.log("Console message");
   	});
+
+  	$(".header-btn").on('click', 'button', function() {
+  		var headMsg = ("<h1>Third Button</h1><p>Here is some more text. </p>")
+  		$(this).closest(".container").append(headMsg);
+  	});
+
+  	$(".list-btn").on('click', 'button', function() {
+  		var list = ("<ul><li>Cheese</li><li>Eggs</li><li>Milk</li></ul>");
+  		$(this).closest(".container").append(list);
+  	});
 });
