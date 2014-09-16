@@ -1,0 +1,18 @@
+.btn-box {
+	width: 200px;
+	margin: auto;
+	height: 10em;
+}
+
+button {
+	margin: 60px;
+	padding: 5px, 7px;
+	background: #a7aadf;
+	border: 1px solid #7578a0;
+	color: white;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+}
